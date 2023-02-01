@@ -5,5 +5,6 @@ class GamesController < ApplicationController
 
   def score
     @word = params[:word].upcase
+    @letters = params[:letters]
   end
 end
